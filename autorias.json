@@ -1,0 +1,112 @@
+[
+    {
+        "nombre": "Funhouse",
+        "artista": "P!nk",
+        "id": 20,
+        "portado": "https://i.ytimg.com/vi/5Rm6589agOM/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLACnIOtx5hSEWnqszb-5tg4sGtntA",
+        "duracionDisco": 5201,
+        "pistas": [
+            {
+                "nombre": "So What",
+                "duracion": 335
+            },
+            {
+                "nombre": "Sober",
+                "duracion": 411
+            },
+            {
+                "nombre": "I don't Believe You",
+                "duracion": 436
+            },
+            {
+                "nombre": "One Foot Wrong",
+                "duracion": 324
+            },
+            {
+                "nombre": "Please Don't Leave me",
+                "duracion": 351
+            },
+            {
+                "nombre": "Bad Influence",
+                "duracion": 325
+            },
+            {
+                "nombre": "Funhouse",
+                "duracion": 324
+            },
+            {
+                "nombre": "Crystal Ball",
+                "duracion": 326
+            },
+            {
+                "nombre": "Mean",
+                "duracion": 417
+            },
+            {
+                "nombre": "It's All You Fault",
+                "duracion": 325
+            },
+            {
+                "nombre": "Ave Mary A",
+                "duracion": 315
+            },
+            {
+                "nombre": "Glietter In the Air",
+                "duracion": 347
+            }
+        ]
+    },
+    {
+        "nombre": "Based On A Feeling",
+        "artista": "Sabrina Claudio",
+        "id": 56,
+        "portado": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fopen.spotify.com%2Falbum%2F3PdyuqyxiDFTujJ8e2U2E2&psig=AOvVaw0Tp9qA8fwCesmbPwu5LzhP&ust=1729252990659000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCKDLgMSvlYkDFQAAAAAdAAAAABAE",
+        "duracionDisco": 3538,
+        "pistas": [
+            {
+                "pista1": "Subtle Things",
+                "duracion": 243
+            },
+            {
+                "pista1": "Don't Make Me Wait",
+                "duracion": 252
+            },
+            {
+                "pista1": "IOU",
+                "duracion": 318
+            },
+            {
+                "pista1": "Impersonator",
+                "duracion": 358
+            },
+            {
+                "pista1": " Sunset Eyes",
+                "duracion": 226
+            },
+            {
+                "pista1": "Better Version",
+                "duracion": 335
+            },
+            {
+                "pista1": "Put On Repeat",
+                "duracion": 305
+            },
+            {
+                "pista1": "Basic Needs",
+                "duracion": 257
+            },
+            {
+                "pista9": "Favorite Part",
+                "duracion": 335 
+            },
+            {
+                "pista10": "Still Strangers",
+                "duracion": 335
+            },
+            {
+                "pista11": "Protect Her",
+                "duracion": 324
+            }
+        ]
+    }
+]
