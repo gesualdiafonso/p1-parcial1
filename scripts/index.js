@@ -27,21 +27,21 @@ class Disco {
         this.pistas.push(pista);
     }
 
-    // Método para contar o número de faixas
+    // Método para contar el numero de pistas
     getTotalPistas() {
         return this.pistas.length;
     }
 
-    // Método para calcular a duração total do disco em segundos
+    // Método para calcular la duracion total do disco en segundos
     getDuracionTotal() {
         let totalSegundos = 0;
         for (let pista of this.pistas) {
-            totalSegundos += convertToSeconds(pista.duracion); // Convertendo a duração da pista para segundos
+            totalSegundos += convertToSeconds(pista.duracion); // Convertir duracion de pista en segundos
         }
-        return convertSecondsToHHMM(totalSegundos); // Convertendo total em segundos para HH:MM
+        return convertSecondsToHHMM(totalSegundos); // Convertir total de segundos a HH:MM
     }
 
-    // Método para pegar a faixa com a maior duração
+    // Método para fijar pista con mayor duracion
     getPistaMaisLarga() {
         let pistaLarga = this.pistas[0];
         for (let pista of this.pistas) {
