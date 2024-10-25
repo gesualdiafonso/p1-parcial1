@@ -38,7 +38,7 @@ class Disco {
         for (let pista of this.pistas) {
             totalSegundos += convertToSeconds(pista.duracion); // Convertendo a duração da pista para segundos
         }
-        return convertSecondsToHHMM(totalSegundos); // Convertendo total em segundos para HH:MM
+        return convertSecondsToHHMMSS(totalSegundos); // Convertendo total em segundos para HH:MM
     }
 
     // Método para pegar a faixa com a maior duração
@@ -68,7 +68,8 @@ class Disco {
                             <ul class="pistas">`
             ;
             for(let pista of this.pistas){
-                html += `<li>${pista.nombre} | Duración: <span class="duracion-pista">${pista.duracion}</span></li>`;
+                const cor = convertToSeconds(pista.duracion) > 180 ? 'style="color: #f32f9f;"' : ''; 
+                html += `<li ${cor}>${pista.nombre} | Duración: <span class="duracion-pista">${pista.duracion}</span></li>`;
             }
             html += 
                             `</ul>

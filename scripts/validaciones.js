@@ -136,8 +136,9 @@ function convertSecondsToMMSS(segundos) {
  * @param {number} segundos
  * @returns {string} duração no formato HH:MM
  */
-function convertSecondsToHHMM(segundos) {
+function convertSecondsToHHMMSS(segundos) {
     const horas = Math.floor(segundos / 3600);
     const minutos = Math.floor((segundos % 3600) / 60);
-    return `${horas}:${minutos < 10 ? "0" : ""}${minutos}`;
+    const seg = segundos %60;
+    return `${horas}:${minutos < 10 ? "0" : ""}${minutos}:${seg < 10 ? "0" : ""}${seg}`;
 }
