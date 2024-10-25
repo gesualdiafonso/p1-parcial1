@@ -66,14 +66,3 @@ function mostrarDisco(){
         contenedor.innerHTML = biblioteca.toHTML();
     }, 500)
 }
-function buscarDiscoPorID(id) {
-    let discoEncontrado = discos.find(disco => disco.id === id);
-    if (discoEncontrado) {
-        alert(`Disco encontrado: ${discoEncontrado.nombre}`);
-        // Exibe o HTML do disco encontrado
-        const contenedor = document.getElementById('container');
-        contenedor.innerHTML = discoEncontrado.toHTML();
-    } else {
-        alert("Disco no encontrado");
-    }
-}
