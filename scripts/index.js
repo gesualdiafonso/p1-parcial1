@@ -58,23 +58,24 @@ class Disco {
                     <ul>
                         <li>Nombre del disco: ${this.nombre}</li>
                         <li>Autor: ${this.artista}</li>
-                        <li>Id: ${this.id}</li>
+                        <li>Id: <span class="id-disco">${this.id}</span></li> <!-- Classe para ID -->
                         <li><img src="${this.portada}" alt="Portada del disco ${this.artista}"></li>
-                        <li>Total de pistas: ${this.getTotalPistas()}</li>
-                        <li>Duración total: ${this.getDuracionTotal()}</li>
-                        <li>Pista más larga: ${this.getPistaMaisLarga().nombre} (${this.getPistaMaisLarga().duracion})</li>
+                        <li>Total de pistas: <span class="total-pistas">${this.getTotalPistas()}</span></li> 
+                        <li>Duración total: <span class="duracion-total">${this.getDuracionTotal()}</span></li> 
+                        <li>Pista más larga: <span class="pista-larga">${this.getPistaMaisLarga().nombre}</span> 
+                            (<span class="pista-larga">${this.getPistaMaisLarga().duracion}</span>)</li> 
                         <li>Pistas:
                             <ul class="pistas">`
             ;
             for(let pista of this.pistas){
-                html += `<li>${pista.nombre} | Duración: ${pista.duracion}</li>`;
+                html += `<li>${pista.nombre} | Duración: <span class="duracion-pista">${pista.duracion}</span></li>`;
             }
             html += 
                             `</ul>
                             </li>
                         </ul>
                     </div>`;
-
-            return html
-        }
+    
+            return html;
+    }
 }

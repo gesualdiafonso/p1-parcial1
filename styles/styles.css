@@ -207,7 +207,33 @@ p{
     border-radius: 20px;
     padding: 2rem;
 }
+.id-disco {
+    color: #f32f9f;
+    font-size: 1em;
+}
 
+/* Cor para o Total de Pistas */
+.total-pistas {
+    color: #59cf6f;
+}
+
+/* Cor para a Duração Total */
+.duracion-total {
+    color: #59cf6f;
+}
+
+/* Cor para a Pista Mais Larga */
+.pista-larga {
+    color: #59cf6f;
+}
+
+/* Cor para a Duração das Pistas */
+.duracion-pista {
+    color: #59cf6f;
+}
+span{
+    font-size: 1em;
+}
 /**
  * Web
  */
