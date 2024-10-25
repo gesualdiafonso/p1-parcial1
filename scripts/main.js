@@ -8,7 +8,7 @@
 
 let discos = []
 
-let codigoUsado = []
+let codigoUsado = [123, 111]
 
 function cargarDiscos() {
     //TODO
@@ -26,7 +26,7 @@ function cargarDiscos() {
         const linkPortada = prompt("Ingrese el link de la portada del disco:");
 
         //Añadimos al Id a los ya usados para que se valide si existe o no
-        codigoUsado.push(idDisco);
+        codigoUsado.push(parseInt(idDisco));
 
         // Creamos una nueva instancia del disco con los datos validados
         const nuevoDisco = new Disco(nombreDisco, nombreArtista, idDisco, linkPortada);

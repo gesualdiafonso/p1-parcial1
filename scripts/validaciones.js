@@ -55,7 +55,7 @@ function validarID(msg = "", idsExistentes = []) {
             datoValido = false;
         }
         else if (idsExistentes.includes(id)){
-            alert("Este Id presentado ya existe, por favor volver a inserir otro")
+            alert(`O ID ${id} já foi utilizado. Por favor, insira um novo ID.`);
             datoValido = false;
         }
         else{
