@@ -19,11 +19,7 @@ function validarString(msg = " "){
     do{
         entrada = prompt(msg);
 
-        if(!isNaN(entrada)){
-            alert("Por favor, ingrese Textos")
-            datoValido = false;
-        }
-        else if(entrada === null || entrada.trim() === ""){
+        if(entrada === null || entrada.trim() === ""){
             alert("Por favor, complete el campo")
             datoValido = false;
         }
