@@ -51,11 +51,11 @@ function validarID(msg = "", idsExistentes = []) {
         // Vamos decir si el codigo sera numerico o alfanumerico.
 
         if (isNaN(id) || id < 1 || id > 999){
-            alert("Por favor, insira un Id que sea dentro del rango de 1 a 999 y que sea valido")
+            alert("Por favor, ingrese un Id que este dentro del rango de 1 a 999 y que sea valido")
             datoValido = false;
         }
         else if (idsExistentes.includes(id)){
-            alert(`O ID ${id} já foi utilizado. Por favor, insira um novo ID.`);
+            alert(`O ID ${id} ya fue utilizado. Por favor, ingrese um nuevo ID.`);
             datoValido = false;
         }
         else{
